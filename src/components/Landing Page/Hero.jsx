@@ -16,7 +16,7 @@ const Hero = () => {
   }, []);
   
   return (
-    <>
+    <div>
         <div className="cursor" onMouseMove={(e)=>{handleCursor(e)}}
           style={{
             position: "absolute",
@@ -48,8 +48,9 @@ const Hero = () => {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 };
 
 export default Hero;
+
